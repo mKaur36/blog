@@ -1,0 +1,209 @@
+body{
+    margin: 1;
+  }
+  .cotainer{
+    width: 80%;
+    margin: auto;
+  }
+  .btn{
+    color: blue;
+    padding: 8px 15px;
+    border-radius: 5px;
+  }
+  /*Global message*/
+  .global-msg{
+    background: navy;
+    color: whitesmoke;
+    line-height: 32px;
+    text-align: center;
+    font-size: larger;
+  }
+  .gbl-content{
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-bar{
+    background: rgb(133, 133, 237);
+    color: whitesmoke;
+    font-size: 24px;
+  }
+  .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu ul{
+    display: flex;
+    list-style: none;
+    
+    justify-content: space-between;
+    
+  }
+  .menu ul li{
+    margin-left: 1rem;
+  
+    
+  }
+  /* .menu ul li:hover {
+    cursor: pointer;
+    color: red;
+  } */
+  
+  .hero{
+    background: url(images/logo.jpg) no-repeat center;
+    background-size: cover;
+   
+  min-height: 50vh;
+  background-attachment: fixed;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  z-index: -2;
+   
+  }
+  .hero-content{
+    background: lightblue;
+    width: 450px;
+    color: whitesmoke;
+    padding: 1rem;
+    text-align: center;
+    
+    border-radius: 5px;
+  }
+  .main{
+    display: flex;
+    margin-top: 32px;
+    
+  }
+  .main h2{
+    text-align: center;
+  
+  }
+  .art-content .title{ text-align: center;
+  
+  }
+  
+  .main-content{
+    margin-right: 1rem;
+    width: 66%;
+    background: rgb(4, 118, 167);
+    
+  }
+  .main-content h3{
+    text-align: center;
+  
+  }
+  
+  
+  .side-links{
+    width: 34%;
+  
+  }
+  .article{
+    display: flex;
+    border: 1px solid rgb(5, 96, 167);
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  .art-img{
+    width: 500px;
+    margin-right: 20px;
+    
+  
+  }
+  .title{
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+  .try{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .sikh-piligrimage{
+    margin-top: 3.5rem;
+    background: rgb(75, 191, 240);
+    padding: 1rem;
+    border-radius: 5px;
+  
+  }
+  .accomodation-list{
+    display: flex;
+    justify-content: space-around ;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+  }
+  .accomodation{
+    
+    margin: 10px 10px;
+    background: rgb(88, 149, 235);
+  width: 350px;
+    border-radius: 20px;
+    padding-bottom: 1 rem;
+    box-shadow: 5px 5px 10px 5px black;
+  
+  }
+  .accomodation-img{
+    border-radius: 5px 5px 0 0;
+  }
+  .subs{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .footer{
+    background-color: aliceblue;
+    color: black;
+    padding: 30px;
+    text-align: center;
+    margin-top: 32px;
+  }
+  
+  
+  @media (max-width: 600px) {
+    .main-content{
+      display: flex;
+      flex-direction: column;
+      
+    }
+    .main-content{
+      margin-right: 0;
+      width: 100%;
+    }
+    article {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .art-img {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 1rem;
+    }
+  
+    .side-links {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .side-links > div {
+      width: 40%;
+  
+    }
+  
+  }
+  
+    
+  
+  
+  
+  
+  
+  
